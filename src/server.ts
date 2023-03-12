@@ -1,3 +1,5 @@
+import API from './api';
+
 const express = require('express');
 const app = express();
 
@@ -10,3 +12,5 @@ app.get("/", (req: any, res: any) => {
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+app.use('/api', API);
