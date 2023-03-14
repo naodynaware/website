@@ -1,6 +1,9 @@
 [
     {
         "title": "Main Page",
-        "name": "main.md"
+        "description": "Main post. Example.",
+        "date": "",
+        "name": "main.md",
+        "id": "main"
     }
 ]

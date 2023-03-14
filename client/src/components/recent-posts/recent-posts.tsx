@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import '../../styles/ui/recent-post.scss';
 
 interface RecentPostsProps {
-
+    
 }
 
 interface RecentPostsState {
@@ -31,12 +34,17 @@ export class RecentPosts extends React.Component<RecentPostsProps, RecentPostsSt
                 <h2>Recent Posts</h2>
 
                 {
-                    this.state.posts.map((post: any, index) => (
-                        <div key={index}>
-                            <h3>{post.title}</h3>
-                            <p>{post.name}</p>
-                        </div>
-                    ))
+                    this.state.posts.map((post: any, index) => {
+                        return (
+                            <Link to={`/post/${post.id}`} key={index}>
+                                <div className="recent-post">
+                                    <h3>{post.title}</h3>
+                                    <h4>{post.description}</h4> 
+                                    <p>{post.content}</p>
+                                </div>
+                            </Link>
+                        );
+                    })
                 }
             </div>
         );
