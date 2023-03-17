@@ -1,3 +1,25 @@
 .recent-post {
-    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+
+    h1, 
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        cursor: pointer;
+    }
+}
+
+.recent-post:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
 }
