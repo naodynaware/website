@@ -28,6 +28,9 @@ API.get('/posts/:postName', async (req: any, res: any) => {
         return;
     });
 
+    console.log(postName);
+    console.log(post);
+
     res.send(post);
 });
 

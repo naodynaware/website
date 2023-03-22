@@ -1,0 +1,10 @@
+.post {
+    padding: 2%;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .post {
+        padding-top: 20%;
+    }
+}

@@ -3,22 +3,16 @@ import { Link } from 'react-router-dom';
 
 import '../../styles/ui/recent-post.scss';
 
-interface RecentPostsProps {
-    
-}
-
 interface RecentPostsState {
     readonly posts: any[];
 }
 
-export class RecentPosts extends React.Component<RecentPostsProps, RecentPostsState> {
-    constructor(props: RecentPostsProps) {
-        super(props);
+export class RecentPosts extends React.Component<{}, RecentPostsState> {
+    constructor() {
+        super({});
 
         this.state = {
-            posts: [{
-                title: 'Loading...',
-            }]
+            posts: []
         };
     }
 

@@ -1,0 +1,17 @@
+nav {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

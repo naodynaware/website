@@ -6,7 +6,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -22,7 +23,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
     background: transparent;
@@ -32,6 +34,17 @@ a {
     color: white;
     text-decoration: none;
     background: transparent;
+    cursor: pointer;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        cursor: pointer;
+    }
 }
 
 .App {
