@@ -25,7 +25,7 @@ export class RecentPosts extends React.Component<{}, RecentPostsState> {
     render() {
         return (
             <div className="recent-posts">
-                <h2>Recent Posts</h2>
+                <h2>Post recenti.</h2>
 
                 {
                     this.state.posts.map((post: any, index) => {
@@ -34,7 +34,7 @@ export class RecentPosts extends React.Component<{}, RecentPostsState> {
                                 <div className="recent-post">
                                     <h3>{post.title}</h3>
                                     <h4>{post.description}</h4> 
-                                    <p>{post.content}</p>
+                                    <p>{post.date}</p>
                                 </div>
                             </Link>
                         );

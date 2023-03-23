@@ -3,7 +3,8 @@ header {
     height: max-content;
     margin: 0 auto;
     border-bottom: solid 2px rgb(100, 100, 100);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(139, 7, 7, 0.5));
+    background: linear-gradient(#000a74, #0015ff);
+    color: white;
 
     .header-content {
         padding-left: 2%;

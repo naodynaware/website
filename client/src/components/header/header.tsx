@@ -9,6 +9,7 @@ export class Header extends React.Component {
         <div className="header-content">
             <h1>dynaware</h1>
             <h2>NAO Challenge 2023</h2>
+            <p>Squadra di Robotica dell'IIS Alessandro Volta di Pescara.</p>
         </div>
       </header>
     );

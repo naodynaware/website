@@ -8,6 +8,7 @@
     cursor: pointer;
     background: transparent;
     transition: all 0.3s ease 0s;
+    color: black;
 
     h1, 
     h2,
@@ -20,6 +21,6 @@
 }
 
 .recent-post:hover {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 218, 137, 0.5);
     transition: all 0.3s ease 0s;
 }
