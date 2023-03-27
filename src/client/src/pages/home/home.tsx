@@ -4,6 +4,7 @@ import { RecentPosts } from '../../components/recent-posts';
 import { Header } from '../../components/header';
 
 import '../../styles/ui/home.scss';
+import { Team } from '../../components/team';
 
 export class Home extends React.Component {
     render() {
@@ -11,10 +12,7 @@ export class Home extends React.Component {
             <div className="home">
                 <Header />
                 <div className="other-content">
-                    <div>
-                        <h2>Il team.</h2>
-                        <p>Siamo la squadra.</p>
-                    </div>
+                    <Team />
                     <RecentPosts />
                 </div>
             </div>

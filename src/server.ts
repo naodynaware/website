@@ -1,3 +1,4 @@
+import path from 'path';
 import API from './api';
 
 const express = require('express');
@@ -11,12 +12,15 @@ dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 
-app.get("/", (req: any, res: any) => {
-    res.send("Welcome to Express!");
+const root = path.join(__dirname, 'client', 'build');
+app.use(express.static(root));
+
+app.use('/api', API);
+
+app.get("/*", (req: any, res: any) => {
+    res.sendFile('index.html', { root });
 });
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
-
-app.use('/api', API);

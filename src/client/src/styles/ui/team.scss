@@ -1,0 +1,19 @@
+.team {
+    padding-top: 0%;
+    padding-bottom: 1%;
+
+    .buttons {
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team {
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+        .buttons {
+            padding-top: 5%;
+        }
+    }
+}

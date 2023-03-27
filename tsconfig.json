@@ -17,6 +17,6 @@
         "tests",
         "node_modules",
         "**/node_modules/*",
-        "client"
+        "src/client"
     ],
 }

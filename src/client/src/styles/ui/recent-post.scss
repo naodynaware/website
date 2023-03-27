@@ -1,3 +1,7 @@
+.recent-posts {
+    padding-top: 1%;
+}
+
 .recent-post {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -9,6 +13,7 @@
     background: transparent;
     transition: all 0.3s ease 0s;
     color: black;
+    border-radius: 20px;
 
     h1, 
     h2,

@@ -2,10 +2,14 @@ nav {
     position: fixed;
     z-index: 10;
     width: 100%;
-    background: linear-gradient(#000a7448, #0015ff00);
+    background: linear-gradient(#00000085, #0015ff00);
     padding: 1%;
     padding-left: 2%;
     padding-right: 2%;
+
+    h1 {
+        color: rgb(255, 255, 255);
+    }
 }
 
 @media screen and (max-width: 768px) {
