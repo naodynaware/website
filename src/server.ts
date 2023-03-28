@@ -17,8 +17,8 @@ app.use(express.static(root));
 
 app.use('/api', API);
 
-app.get("/*", (req: any, res: any) => {
-    res.sendFile('index.html', { root });
+app.get("/", (req: any, res: any) => {
+    res.json({ message: "API is working." });
 });
 
 app.listen(PORT, () => {
