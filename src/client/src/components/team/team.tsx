@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../../styles/ui/team.scss';
 
@@ -18,9 +19,11 @@ export class Team extends React.Component {
                 </div>
 
                 <div className="buttons">
-                    <button>
-                        Mostrami di più
-                    </button>
+                    <Link to="/post/noi-siamo-dynaware">
+                        <button>
+                            Mostrami di più
+                        </button>
+                    </Link> 
                 </div>
             </div>
         )

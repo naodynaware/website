@@ -1,10 +1,10 @@
 [
     {
-        "title": "Main Page",
-        "description": "Main post. Example.",
-        "author": "Luca Vinci",
-        "date": "23 Mar 2023",
-        "name": "main.md",
-        "id": "main"
+        "title": "Noi siamo DynAware",
+        "description": "Presentazione della squadra e del progetto.",
+        "author": "Francesco Fatone",
+        "date": "28 Marzo 2023",
+        "name": "noi-siamo-dynaware.md",
+        "id": "noi-siamo-dynaware"
     }
 ]

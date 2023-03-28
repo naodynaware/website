@@ -1,0 +1,30 @@
+header {
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    border-bottom: solid 2px rgb(100, 100, 100);
+    background: linear-gradient(#0015ff, #000c8d,);
+    color: white;
+
+    .post-header-content {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 2.5%;
+        padding-bottom: 2%;
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        .post-header-content {
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+    }
+}

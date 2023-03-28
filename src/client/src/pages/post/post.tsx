@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
+import { PostHeader } from '../../components/post-header';
+
 import '../../styles/ui/post.scss';
 
 export function Post() {
@@ -17,6 +19,8 @@ export function Post() {
     })
     
     return (
+        <>
+        <PostHeader/>
         <div className="post">
             { post ? (
                 <div>
@@ -29,5 +33,6 @@ export function Post() {
                     </div> 
             )}
         </div>
+        </>
     )
 }
