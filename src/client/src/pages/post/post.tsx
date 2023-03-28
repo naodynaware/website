@@ -11,7 +11,7 @@ export function Post() {
     const [post, setPost] = useState<null | string>(null);
 
     useEffect(() => {
-        fetch(`http://localhost:3001/api/posts/${id}`).then((content) => {
+        fetch(`https://dynaware-website.herokuapp.com/api/posts/${id}`).then((content) => {
             return content.json()
         }).then((content: any) => {
             setPost(content.post)

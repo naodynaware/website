@@ -17,7 +17,7 @@ export class RecentPosts extends React.Component<{}, RecentPostsState> {
     }
 
     componentDidMount(): void {
-        fetch('http://localhost:3001/api/posts')
+        fetch('https://dynaware-website.herokuapp.com/api/posts')
             .then(res => res.json())
             .then(posts => this.setState({ posts }));
     }
