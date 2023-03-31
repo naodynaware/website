@@ -21,7 +21,7 @@ Di seguito trovate una lista dei membri, con i loro ruoli.
  - Filippo Correntini: Sviluppatore Web;
  - Jordan dell'Elce: Sviluppatore Web, Videomaker e Grafico;
  - Thomas Wickenden: Grafico e Videomaker;
- - Andrea Fornaseri: Sviluppatore Web, Social Media Manager;
+ - Andrea Fornaseri: Sviluppatore Web e Social Media Manager;
  - Daniele Cieri: Social Media Manager.
 
 ### Cosa facciamo?
