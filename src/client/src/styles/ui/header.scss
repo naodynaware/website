@@ -6,6 +6,7 @@ header {
     background: linear-gradient(#0015ff, #000c8d,);
     color: white;
 
+
     .header-content {
         padding-left: 2%;
         padding-right: 2%;
@@ -17,9 +18,17 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+
     }
 }
-
+img {
+    position: absolute;
+    left: 1370px;
+    bottom: 550px;
+    width: 20%;
+    height: auto;
+    transform: scale(0.9);
+  }
 @media screen and (max-width: 768px) {
     .header-content {
         padding-top: 50%;
