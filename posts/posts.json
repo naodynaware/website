@@ -6,5 +6,13 @@
         "date": "28 Marzo 2023",
         "name": "noi-siamo-dynaware.md",
         "id": "noi-siamo-dynaware"
-    }
+    },
+    {
+        "title": "Partnership",
+        "description": "Presentazione della partnership.",
+        "author": "Andrea Fornaseri",
+        "date": "6 Aprile 2023",
+        "name": "partnership.md",
+        "id": "partnership"
+    }   
 ]
