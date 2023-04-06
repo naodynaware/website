@@ -1,6 +1,6 @@
 SCRITTO DA ANDREA FORNASERI - 6 APRILE 2023.
 
-# Noi siamo DynAware
+# Partnership
 ## Presentazione della partnership.
 
 ### Con chi abbiamo fatto la partnership e perchè?
