@@ -29,3 +29,34 @@
     background: rgba(255, 218, 137, 0.5);
     transition: all 0.3s ease 0s;
 }
+form {
+    display: inline-block;
+    margin-right: 200px;
+  }
+
+  input {
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.6em;
+    box-shadow: 0.2em 0.2em;
+    display: block;
+    margin: 10px 0;
+  }
+
+  input:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+
+  input:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+  figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+  }
