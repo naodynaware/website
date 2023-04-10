@@ -65,6 +65,7 @@ export class RecentPosts extends React.Component<{}, RecentPostsState> {
                         <figcaption>Se vuoi visitare la nostra pagina Instagram clicca il logo</figcaption>
                     </figure>
                 </form>
+                
             </div>
         );
     }
