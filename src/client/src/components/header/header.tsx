@@ -11,7 +11,6 @@ export class Header extends React.Component {
             <h2>NAO Challenge 2023</h2>
             <p>Squadra di Robotica dell'IIS Alessandro Volta di Pescara.</p>
         </div>
-        <img src="https://i.postimg.cc/qRwr1FJz/a5cb68e3-c67f-4d9f-a1ab-1a93d90e6a5a.png"></img>
       </header>
     );
   }

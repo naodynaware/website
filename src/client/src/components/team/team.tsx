@@ -18,6 +18,10 @@ export class Team extends React.Component {
                     </p>
                 </div>
 
+                <div className="pictures">
+                    <img src="./assets/team.jpg" alt="Team" />
+                </div>
+
                 <div className="buttons">
                     <Link to="/post/noi-siamo-dynaware">
                         <button>

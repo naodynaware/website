@@ -5,6 +5,7 @@ import { Header } from '../../components/header';
 
 import '../../styles/ui/home.scss';
 import { Team } from '../../components/team';
+import { Footer } from '../../components/footer';
 
 export class Home extends React.Component {
     render() {
@@ -15,6 +16,7 @@ export class Home extends React.Component {
                     <Team />
                     <RecentPosts />
                 </div>
+                <Footer />
             </div>
         );
     }

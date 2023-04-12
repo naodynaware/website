@@ -21,14 +21,7 @@ header {
 
     }
 }
-img {
-    position: absolute;
-    left: 1370px;
-    bottom: 550px;
-    width: 20%;
-    height: auto;
-    transform: scale(0.9);
-  }
+
 @media screen and (max-width: 768px) {
     .header-content {
         padding-top: 50%;
