@@ -1,62 +1,72 @@
 .recent-posts {
-    padding-top: 1%;
+  padding-top: 1%;
 }
 
 .recent-post {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    cursor: pointer;
-    background: transparent;
-    transition: all 0.3s ease 0s;
-    color: black;
-    border-radius: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  color: black;
+  border-radius: 20px;
 
-    h1, 
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        cursor: pointer;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    cursor: pointer;
+  }
 }
 
 .recent-post:hover {
-    background: rgba(255, 218, 137, 0.5);
-    transition: all 0.3s ease 0s;
+  background: rgba(255, 218, 137, 0.5);
+  transition: all 0.3s ease 0s;
 }
+
 form {
-    display: inline-block;
-    margin-right: 200px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+input {
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.6em;
+  box-shadow: 0.2em 0.2em;
+  display: block;
+  margin: 10px 0;
+  width: 150px;
+  /* Set a fixed width for the input */
+}
+
+input:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+input:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+
+@media (max-width: 600px) {
+  form {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
   input {
-    font-weight: 900;
-    font-size: 18px;
-    border: 3px solid black;
-    border-radius: 0.6em;
-    box-shadow: 0.2em 0.2em;
-    display: block;
-    margin: 10px 0;
+    width: 100%;
+    margin: 10px 0 0 0;
   }
-
-  input:hover {
-    transform: translate(-0.05em, -0.05em);
-    box-shadow: 0.15em 0.15em;
-  }
-
-  input:active {
-    transform: translate(0.05em, 0.05em);
-    box-shadow: 0.05em 0.05em;
-  }
-
-  figcaption {
-    text-align: center;
-    font-style: italic;
-    font-size: 14px;
-    margin-top: 5px;
-  }
+}

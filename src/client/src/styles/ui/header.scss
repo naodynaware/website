@@ -29,6 +29,17 @@ img {
     height: auto;
     transform: scale(0.9);
   }
+
+  @media screen and (max-width: 768px) {
+    
+    img {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      width: 100%;
+      transform: none;
+    }
+  }
 @media screen and (max-width: 768px) {
     .header-content {
         padding-top: 50%;
